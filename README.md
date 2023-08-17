@@ -64,6 +64,20 @@ module.exports = {
 
 ## 配置eslit
 
+eslint: ESLint 的核心代码
+
+prettier：prettier 插件的核心代码
+
+eslint-config-prettier：解决 ESLint 中的样式规范和 prettier 中样式规范的冲突，以 prettier 的样式规范为准，使 ESLint 中的样式规范自动失效
+
+eslint-plugin-prettier：将 prettier 作为 ESLint 规范来使用
+
+eslint-plugin-vue：包含常用的 vue 规范
+
+@typescript-eslint/parser：ESLint 的解析器，用于解析 typescript，从而检查和规范 Typescript 代码
+
+@typescript-eslint/eslint-plugin：包含了各类定义好的检测 Typescript 代码的规范
+
 ```
 pnpm i eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 ```
@@ -99,4 +113,11 @@ module.exports = {
   },
 };
 
+```
+
+# 分支说明
+
+```
+main 分支
+集成vue3 + vue-router + prettier + eslint + stylelint + axios
 ```

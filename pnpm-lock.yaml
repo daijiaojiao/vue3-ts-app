@@ -4,6 +4,9 @@ dependencies:
   axios:
     specifier: ^1.4.0
     version: registry.npmmirror.com/axios@1.4.0
+  pinia:
+    specifier: ^2.1.6
+    version: registry.npmmirror.com/pinia@2.1.6(typescript@5.0.2)(vue@3.3.4)
   vue:
     specifier: ^3.3.4
     version: registry.npmmirror.com/vue@3.3.4
@@ -2698,6 +2701,27 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  registry.npmmirror.com/pinia@2.1.6(typescript@5.0.2)(vue@3.3.4):
+    resolution: {integrity: sha512-bIU6QuE5qZviMmct5XwCesXelb5VavdOWKWaB17ggk++NUwQWWbP5YnsONTk3b752QkW9sACiR81rorpeOMSvQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pinia/-/pinia-2.1.6.tgz}
+    id: registry.npmmirror.com/pinia/2.1.6
+    name: pinia
+    version: 2.1.6
+    peerDependencies:
+      '@vue/composition-api': ^1.4.0
+      typescript: '>=4.4.4'
+      vue: ^2.6.14 || ^3.3.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/devtools-api': registry.npmmirror.com/@vue/devtools-api@6.5.0
+      typescript: registry.npmmirror.com/typescript@5.0.2
+      vue: registry.npmmirror.com/vue@3.3.4
+      vue-demi: registry.npmmirror.com/vue-demi@0.14.5(vue@3.3.4)
+    dev: false
+
   registry.npmmirror.com/pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pkg-types/-/pkg-types-1.0.3.tgz}
     name: pkg-types
@@ -3483,7 +3507,6 @@ packages:
     version: 5.0.2
     engines: {node: '>=12.20'}
     hasBin: true
-    dev: true
 
   registry.npmmirror.com/ufo@1.2.0:
     resolution: {integrity: sha512-RsPyTbqORDNDxqAdQPQBpgqhWle1VcTSou/FraClYlHf6TZnQcGslpLcAphNR+sQW4q5lLWLbOsRlh9j24baQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ufo/-/ufo-1.2.0.tgz}
@@ -3616,6 +3639,24 @@ packages:
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents@2.3.2
     dev: true
+
+  registry.npmmirror.com/vue-demi@0.14.5(vue@3.3.4):
+    resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.5.tgz}
+    id: registry.npmmirror.com/vue-demi/0.14.5
+    name: vue-demi
+    version: 0.14.5
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: registry.npmmirror.com/vue@3.3.4
+    dev: false
 
   registry.npmmirror.com/vue-eslint-parser@9.3.1(eslint@8.47.0):
     resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.1.tgz}

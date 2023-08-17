@@ -1,8 +1,8 @@
 <script setup lang="ts">
-defineProps<{ msg: string }>();
+defineProps<{ msg: string }>()
 
-const count = ref(0);
-const ad = computed(() => 2);
+const count = ref(0)
+const ad = computed(() => 2)
 </script>
 
 <template>
